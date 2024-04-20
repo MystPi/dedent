@@ -1,0 +1,9 @@
+---
+version: 1.1.3
+title: leading and trailing whitespace is removed
+file: ./test/dedent_test.gleam
+test_name: trim_test
+---
+A
+B
+C

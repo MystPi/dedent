@@ -1,0 +1,12 @@
+name = "dedent"
+version = "1.0.0"
+description = "Remove shared indentation from a string"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "MystPi", repo = "dedent" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
+birdie = ">= 1.1.3 and < 2.0.0"

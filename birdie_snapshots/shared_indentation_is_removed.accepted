@@ -1,0 +1,13 @@
+---
+version: 1.1.3
+title: shared indentation is removed
+file: ./test/dedent_test.gleam
+test_name: dedent_test
+---
+I am at level one
+
+  * level two
+  - level two
+    - level three
+
+> That's it!
